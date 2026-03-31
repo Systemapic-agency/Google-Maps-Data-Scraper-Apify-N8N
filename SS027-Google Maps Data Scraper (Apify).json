@@ -1,0 +1,1965 @@
+{
+  "name": "SS027-Google Maps Data Scraper (Apify 2)",
+  "nodes": [
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.searchTerm }}",
+                    "rightValue": "=GlowUp Studio",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    },
+                    "id": "12e40cf4-a744-42a0-95f1-8bb93766f245"
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "93bacc1c-10a3-4dc5-84b3-3001ec87d867",
+                    "leftValue": "={{ $json.searchTerm }}",
+                    "rightValue": "Restaurant",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "2180a487-4544-424c-94ef-9a1a42a31fa4",
+                    "leftValue": "={{ $json.searchTerm }}",
+                    "rightValue": "Sports",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "8a2829d4-a060-435e-a558-38dffdcaa104",
+                    "leftValue": "={{ $json.searchTerm }}",
+                    "rightValue": "Bakery",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "ec2d09e4-ca39-4228-8727-a39265432dc6",
+                    "leftValue": "={{ $('On form submission').item.json[\"Business name\"] }}",
+                    "rightValue": "Photography Studio",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "0aaa627c-8475-4fab-85be-e4ad1ebd6a3e",
+                    "leftValue": "={{ $json.searchTerm }}",
+                    "rightValue": "Travel Agency",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "ce77939f-2ecf-4fae-af91-ebab790d97e5",
+                    "leftValue": "={{ $json.searchTerm }}",
+                    "rightValue": "Event Management",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "d3ed6275-bcbd-4f5e-a517-0e7122ea868d",
+                    "leftValue": "={{ $json.searchTerm }}",
+                    "rightValue": "Fitness Center/Gym",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "84f73c5d-bafb-49eb-a080-5639536d299e",
+                    "leftValue": "={{ $json.searchTerm }}",
+                    "rightValue": "Digital Marketing Agency",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "e117f72f-1572-4dde-9360-8e28c105c00b",
+                    "leftValue": "={{ $json.searchTerm }}",
+                    "rightValue": "Plumber",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        2288,
+        864
+      ],
+      "id": "7be7aeb5-bb4f-4db9-8d2d-c380b5b20342",
+      "name": "Switch1"
+    },
+    {
+      "parameters": {
+        "content": "## Form submission",
+        "height": 288,
+        "width": 208,
+        "color": 3
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        576,
+        880
+      ],
+      "typeVersion": 1,
+      "id": "709ec58f-05be-4f70-8463-bcf1380d7d2c",
+      "name": "Sticky Note5"
+    },
+    {
+      "parameters": {
+        "content": "## Data scraper\n",
+        "height": 288,
+        "width": 416,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        816,
+        880
+      ],
+      "typeVersion": 1,
+      "id": "0a7c302a-fd11-4250-9c5a-ec0f3121c750",
+      "name": "Sticky Note6"
+    },
+    {
+      "parameters": {
+        "content": "## Switch",
+        "height": 560,
+        "color": 2
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        2224,
+        720
+      ],
+      "typeVersion": 1,
+      "id": "116e1072-25f1-40b5-90d0-4f61fb30c46c",
+      "name": "Sticky Note7"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1316691763,
+          "mode": "list",
+          "cachedResultName": "sports",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1316691763"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Full Address": "={{ $json.address }}",
+            "Business name ": "={{ $json.categories[0] }}",
+            "Phone number": "={{ $json.phone }}",
+            "Email": "={{ $json.emails[1] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Business name ",
+              "displayName": "Business name ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Full Address",
+              "displayName": "Full Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Phone number",
+              "displayName": "Phone number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2640,
+        560
+      ],
+      "id": "",
+      "name": "Sheet name Sports1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 947926858,
+          "mode": "list",
+          "cachedResultName": "Bakery",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=947926858"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Full Address": "={{ $json.address }}",
+            "Business name ": "={{ $json.categories[0] }}",
+            "Phone number": "={{ $json.phone }}",
+            "Email": "={{ $json.emails[1] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Business name ",
+              "displayName": "Business name ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Full Address",
+              "displayName": "Full Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Phone number",
+              "displayName": "Phone number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2640,
+        720
+      ],
+      "id": "",
+      "name": "sheet Name Bakery1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 757528070,
+          "mode": "list",
+          "cachedResultName": "Photography Studio",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=757528070"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Full Address": "={{ $json.address }}",
+            "Phone number": "={{ $json.phone }}",
+            "Business name ": "={{ $json.name }}",
+            "Email": "={{ $json.email }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Business name ",
+              "displayName": "Business name ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Full Address",
+              "displayName": "Full Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Phone number",
+              "displayName": "Phone number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2640,
+        864
+      ],
+      "id": "",
+      "name": "sheet Name Photography Studio1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1337546360,
+          "mode": "list",
+          "cachedResultName": "Travel Agency",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1337546360"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Full Address": "={{ $json.address }}",
+            "Business name ": "={{ $json.categories[0] }}",
+            "Phone number": "={{ $json.phone }}",
+            "Email": "={{ $json.emails[1] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Business name ",
+              "displayName": "Business name ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Full Address",
+              "displayName": "Full Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Phone number",
+              "displayName": "Phone number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2640,
+        1024
+      ],
+      "id": "",
+      "name": "sheet Name Travel Agency1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1949884788,
+          "mode": "list",
+          "cachedResultName": "Event Management",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1949884788"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Full Address": "={{ $json.address }}",
+            "Business name ": "={{ $json.categories[0] }}",
+            "Phone number": "={{ $json.phone }}",
+            "Email": "={{ $json.emails[1] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Business name ",
+              "displayName": "Business name ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Full Address",
+              "displayName": "Full Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Phone number",
+              "displayName": "Phone number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2640,
+        1200
+      ],
+      "id": "",
+      "name": "sheet  Name Event Management1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1530386067,
+          "mode": "list",
+          "cachedResultName": "Fitness Center/Gym",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1530386067"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Full Address": "={{ $json.address }}",
+            "Business name ": "={{ $json.categories[0] }}",
+            "Phone number": "={{ $json.phone }}",
+            "Email": "={{ $json.emails[1] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Business name ",
+              "displayName": "Business name ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Full Address",
+              "displayName": "Full Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Phone number",
+              "displayName": "Phone number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2640,
+        1392
+      ],
+      "id": "",
+      "name": "sheet Name Fitness Center/Gym1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1725897676,
+          "mode": "list",
+          "cachedResultName": "Digital Marketing Agency",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1725897676"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Full Address": "={{ $json.address }}",
+            "Business name ": "={{ $json.categories[0] }}",
+            "Phone number": "={{ $json.phone }}",
+            "Email": "={{ $json.emails[1] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Business name ",
+              "displayName": "Business name ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Full Address",
+              "displayName": "Full Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Phone number",
+              "displayName": "Phone number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2640,
+        1584
+      ],
+      "id": "",
+      "name": "sheet Name Digital Marketing Agency1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Restaurant ",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Full Address": "={{ $json.address }}",
+            "Business name ": "={{ $json.categories[0] }}",
+            "Phone number": "={{ $json.phone }}",
+            "Email": "={{ $json.emails[1] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Business name ",
+              "displayName": "Business name ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Full Address",
+              "displayName": "Full Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Phone number",
+              "displayName": "Phone number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2624,
+        400
+      ],
+      "id": "",
+      "name": "Sheet name Restaurant1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "formTitle": "testing",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Business name",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Sports"
+                  },
+                  {
+                    "option": "Restaurant"
+                  },
+                  {
+                    "option": "Plumber"
+                  },
+                  {
+                    "option": "Bakery"
+                  },
+                  {
+                    "option": "Photography Studio"
+                  },
+                  {
+                    "option": "Travel Agency"
+                  },
+                  {
+                    "option": "Event Management"
+                  },
+                  {
+                    "option": "Fitness Center/Gym"
+                  },
+                  {
+                    "option": "Digital Marketing Agency"
+                  },
+                  {
+                    "option": "GlowUp Studio"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Country name ",
+              "placeholder": "just allowed in small letters ex : us , ca, ",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "State",
+              "placeholder": "ON , NY",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "City",
+              "placeholder": "New York , Brampton",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Total Num Of Extraction",
+              "placeholder": "Greater then 20",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        624,
+        1008
+      ],
+      "id": "b240d3fb-a21a-467c-8581-e47c7130f83c",
+      "name": "On form submission",
+      "webhookId": "348fdd88-bed0-4a68-9089-8d36b829ef44"
+    },
+    {
+      "parameters": {
+        "model": "openai/gpt-3.5-turbo",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        384,
+        1216
+      ],
+      "id": "",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are a de-duplication / data matching agent in n8n.\n\nYou receive:\n- INPUT ITEMS: scraped businesses (multiple items). Each item may include:\n  name, address, phone, email, website, facebook, instagram, tiktok, youtube, twitter\n- A FORM FIELD \"category\" decides which Google Sheet to read:\n  {{ $('On form submission').item.json['Business name'] }}\n\nStep 1 — Read existing rows from the correct sheet (MUST use tool)\nBased on incoming category, call the correct Google Sheets “Get row(s)” tool and fetch ALL rows from that sheet.\nDo NOT add/update anything in Google Sheets.\n\nStep 2 — Build normalized keys for matching\n\nA) Phone normalization (primary)\nCreate phone_key for input items and sheet rows using these fields (try in order):\nphone, \"Phone number\", phone_number, telephone, tel, contact_phone\n\nNormalization:\n- keep digits only\n- if digits length is 11 and starts with \"1\", remove leading \"1\"\nExample: \"+1 (718) 500-0657\" -> \"7185000657\"\n\nIgnore blank phone values from sheet rows.\n\nB) Fallback key (only if phone missing)\nIf input phone_key is empty, create fallback_key:\n\nName fields:\ninput: name, business_name, title, \"Business name\"\nsheet: name, business_name, title, \"Business name\"\n\nAddress fields:\ninput: address, full_address, fullAddress, \"Full Address\"\nsheet: address, full_address, fullAddress, \"Full Address\"\n\nNormalize name + address:\n- lowercase\n- trim\n- collapse multiple spaces\n\nfallback_key = \"<name_norm> | <address_norm>\"\n\nStep 3 — Matching decision\nFor each input item:\n- If phone_key exists AND matches any existing row phone_key -> EXISTING -> EXCLUDE\n- Else if phone missing AND fallback_key matches any existing row fallback_key -> EXISTING -> EXCLUDE\n- Else -> NEW -> INCLUDE\n\nExtra rules:\n- If input has no phone AND no usable (name+address), treat as NEW (include).\n- IMPORTANT: Do NOT transform address. If input has \"address\", output it EXACTLY the same. Never output cid links.\n\nFINAL OUTPUT (STRICT):\nReturn ONLY a valid JSON array (top-level).\nDo NOT wrap in { \"output\": ... } or { \"new_items\": ... }.\nIf no new items: output [].\n\nEach returned object MUST include these keys (use \"\" if missing):\nname, address, phone, email, website, facebook, instagram, tiktok, youtube, twitter\n\nExample:\n[\n  {\n    \"name\": \"Vandervoort Studio\",\n    \"address\": \"309 Vandervoort Ave, Brooklyn, NY 11211\",\n    \"phone\": \"7185000657\",\n    \"email\": \"\",\n    \"website\": \"\",\n    \"facebook\": \"\",\n    \"instagram\": \"\",\n    \"tiktok\": \"\",\n    \"youtube\": \"\",\n    \"twitter\": \"\"\n  }\n]\n",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "=You are a deterministic data matching engine.\n\nCRITICAL:\n- Never change any field values. Preserve strings exactly as provided.\n- NEVER convert addresses into Google Maps URLs, cid links, place URLs, or any other format.\n- Never rename keys. Use the same keys as required in the output schema.\n- Return ONLY raw JSON. No markdown, no extra text.\n- The top-level output MUST be a JSON array (not an object).\n- Use empty string \"\" for missing values (do not output null).\n"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        1344,
+        1008
+      ],
+      "id": "da0841ec-46bb-4080-b2e4-16a5d1cd28c8",
+      "name": "AI Agent",
+      "alwaysOutputData": false,
+      "notesInFlow": false,
+      "retryOnFail": false,
+      "executeOnce": false,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const inputs = $input.all();\n\nfunction unescapeIfNeeded(s) {\n  if (typeof s !== 'string') return s;\n  if (s.includes('\\\\\"') || s.includes('\\\\n')) {\n    return s\n      .replace(/\\\\n/g, '\\n')\n      .replace(/\\\\t/g, '\\t')\n      .replace(/\\\\\"/g, '\"')\n      .replace(/\\\\\\\\/g, '\\\\');\n  }\n  return s;\n}\n\nfunction safeJsonParse(text) {\n  try {\n    return JSON.parse(text);\n  } catch (e) {\n    return null;\n  }\n}\n\nfunction pickArray(parsed) {\n  // parsed can be [] or {} or {output:[]} or {new_items:[]}\n  if (!parsed) return [];\n  if (Array.isArray(parsed)) return parsed;\n\n  if (Array.isArray(parsed.output)) return parsed.output;\n  if (Array.isArray(parsed.new_items)) return parsed.new_items;\n  if (Array.isArray(parsed.items)) return parsed.items;\n\n  // sometimes nested like { output: { new_items: [] } }\n  if (parsed.output && typeof parsed.output === 'object') {\n    if (Array.isArray(parsed.output.output)) return parsed.output.output;\n    if (Array.isArray(parsed.output.new_items)) return parsed.output.new_items;\n    if (Array.isArray(parsed.output.items)) return parsed.output.items;\n  }\n\n  return [];\n}\n\nfunction clean(v) {\n  if (v === undefined || v === null) return null;\n  const s = String(v).trim();\n  return s === '' ? null : s;\n}\n\nfunction normalizePhone(p) {\n  if (!p) return null;\n  const s = String(p).trim();\n  // if already contains () or + keep it\n  if (/[()+\\-\\s]/.test(s)) return s;\n\n  // if digits only, format US 10 digits\n  const digits = s.replace(/\\D/g, '');\n  if (digits.length === 10) {\n    return `(${digits.slice(0,3)}) ${digits.slice(3,6)}-${digits.slice(6)}`;\n  }\n  return s;\n}\n\nconst out = [];\n\nfor (let i = 0; i < inputs.length; i++) {\n  const raw0 = inputs[i].json?.output;\n\n  if (typeof raw0 !== 'string') continue;\n\n  const raw = unescapeIfNeeded(raw0);\n  const parsed = safeJsonParse(raw);\n\n  const arr = pickArray(parsed);\n\n  for (const it of arr) {\n    const row = {\n      name: clean(it?.name ?? it?.[\"Business name\"] ?? it?.title),\n      address: clean(it?.address ?? it?.[\"Full Address\"] ?? it?.full_address ?? it?.fullAddress),\n      phone: clean(normalizePhone(it?.phone ?? it?.[\"Phone number\"] ?? it?.phonenumber)),\n      email: clean(it?.email ?? it?.[\"Email\"]),\n      website: clean(it?.website ?? it?.[\"Website\"] ?? it?.url),\n      facebook: clean(it?.facebook ?? it?.[\"Facebook link\"]),\n      instagram: clean(it?.instagram ?? it?.[\"Instagram link\"]),\n      tiktok: clean(it?.tiktok ?? it?.[\"Tiktok link\"]),\n      youtube: clean(it?.youtube ?? it?.[\"Youtube link\"]),\n      twitter: clean(it?.twitter ?? it?.[\"Twitter link\"]),\n    };\n\n    // skip if completely empty\n    if (Object.values(row).some(v => v !== null)) {\n      out.push({ json: row, pairedItem: { item: i } });\n    }\n  }\n}\n\nif (out.length === 0) {\n  return [{\n    json: {\n      error: \"No rows extracted\",\n      hint: \"AI Agent output string was {} or [] or not valid JSON\",\n      sample: inputs[0]?.json?.output ?? null\n    }\n  }];\n}\n\nreturn out;\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1632,
+        1008
+      ],
+      "id": "7091e1bd-d4e6-49d2-8381-67ddd0076e5e",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Restaurant ",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=0"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        544,
+        1216
+      ],
+      "id": "",
+      "name": "Get row(s) Restaurant",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 221374615,
+          "mode": "list",
+          "cachedResultName": "GlowUp Studio",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=221374615"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Business name ": "={{ $json.name }}",
+            "Full Address": "={{ $json.address }}",
+            "Phone number": "={{ $json.phone }}",
+            "Email": "={{ $json.email }}",
+            "Facebook link": "={{ $json.facebook }}",
+            "Youtube link": "={{ $json.youtube }}",
+            "Twittwer link": "={{ $json.twitter }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Business name ",
+              "displayName": "Business name ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Full Address",
+              "displayName": "Full Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Phone number",
+              "displayName": "Phone number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Youtube link",
+              "displayName": "Youtube link",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Facebook link",
+              "displayName": "Facebook link",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Twittwer link",
+              "displayName": "Twittwer link",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "phone_key",
+              "displayName": "phone_key",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2608,
+        240
+      ],
+      "id": "",
+      "name": "Sheet name glow up studio",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1316691763,
+          "mode": "list",
+          "cachedResultName": "Sports",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1316691763"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        864,
+        1216
+      ],
+      "id": "",
+      "name": "Get row(s) Sports",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 947926858,
+          "mode": "list",
+          "cachedResultName": "Bakery",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=947926858"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        1024,
+        1216
+      ],
+      "id": "",
+      "name": "Get row(s) Bakery",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 757528070,
+          "mode": "list",
+          "cachedResultName": "Photography Studio",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=757528070"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        1184,
+        1216
+      ],
+      "id": "",
+      "name": "Get row(s) Photography Studio",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1337546360,
+          "mode": "list",
+          "cachedResultName": "Travel Agency",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1337546360"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        1344,
+        1216
+      ],
+      "id": "",
+      "name": "Get row(s) Travel Agency",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1949884788,
+          "mode": "list",
+          "cachedResultName": "Event Management",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1949884788"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        1504,
+        1216
+      ],
+      "id": "",
+      "name": "Get row(s) Event Management",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": " test",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1530386067,
+          "mode": "list",
+          "cachedResultName": "Fitness Center/Gym",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1530386067"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        1664,
+        1216
+      ],
+      "id": "",
+      "name": "Get row(s) Fitness Center/Gym",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": " test",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1725897676,
+          "mode": "list",
+          "cachedResultName": "Digital Marketing Agency",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1725897676"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        1824,
+        1216
+      ],
+      "id": "",
+      "name": "Get row(s) Digital Marketing Agency",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": " test",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1933656236,
+          "mode": "list",
+          "cachedResultName": "plumber",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1933656236"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Full Address": "={{ $json.address }}",
+            "Business name ": "={{ $json.categories[0] }}",
+            "Phone number": "={{ $json.phone }}",
+            "Email": "={{ $json.emails[1] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Business name ",
+              "displayName": "Business name ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Full Address",
+              "displayName": "Full Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Phone number",
+              "displayName": "Phone number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Email",
+              "displayName": "Email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        2656,
+        1776
+      ],
+      "id": "",
+      "name": "sheet Name  Plumber",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": " test",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1933656236,
+          "mode": "list",
+          "cachedResultName": "plumber",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=1933656236"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        1984,
+        1216
+      ],
+      "id": "",
+      "name": "Get row(s)  Plumber",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": " test",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4",
+          "mode": "list",
+          "cachedResultName": "Google maps data scraper",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 221374615,
+          "mode": "list",
+          "cachedResultName": "GlowUp Studio",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/158z90L37DC3ZN3-C667MsUHJ6ULTMPS8CfZYqMaRNa4/edit#gid=221374615"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.7,
+      "position": [
+        704,
+        1216
+      ],
+      "id": "",
+      "name": "Get row(s) Glowup studio",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": " test",
+          "name": "Testing Google Sheets account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apify.com/v2/acts/poidata~google-maps-email-extractor/runs",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "token",
+              "value": "apify_api_"
+            },
+            {
+              "name": "waitForFinish",
+              "value": "120"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"term\": [\"{{ $json[\"Business name\"] }}\"],\n  \"location\": \"{{ $json.City }}, {{ $json['Country name '] }}\",\n  \"language\": \"en\",\n  \"country\": \"{{ $json['Country name '] }}\",\n  \"total\": {{ $json['Total Num Of Extraction'] }}\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        912,
+        1008
+      ],
+      "id": "7268efe7-18eb-4418-b875-72b1523fcc1f",
+      "name": "Call Apfiy"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.apify.com/v2/datasets/{{ $json.data.defaultDatasetId }}/items",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer apify_api_"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1088,
+        1008
+      ],
+      "id": "d398d9b4-b659-4e40-808e-3fa59949f38b",
+      "name": "Get data from Apify"
+    }
+  ],
+  "pinData": {
+    "On form submission": [
+      {
+        "json": {
+          "Business name": "Photography Studio",
+          "Country name ": "us",
+          "State": "ny",
+          "City": "ny",
+          "Total Num Of Extraction": "50",
+          "submittedAt": "2025-12-13T02:43:29.189+05:00",
+          "formMode": "test"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "Switch1": {
+      "main": [
+        [
+          {
+            "node": "Sheet name glow up studio",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Sheet name Restaurant1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Sheet name Sports1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "sheet Name Bakery1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "sheet Name Photography Studio1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "sheet Name Travel Agency1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "sheet  Name Event Management1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "sheet Name Fitness Center/Gym1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "sheet Name Digital Marketing Agency1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "sheet Name  Plumber",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Call Apfiy",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Switch1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) Restaurant": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) Sports": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) Bakery": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) Photography Studio": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) Travel Agency": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) Event Management": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) Fitness Center/Gym": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) Digital Marketing Agency": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s)  Plumber": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) Glowup studio": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call Apfiy": {
+      "main": [
+        [
+          {
+            "node": "Get data from Apify",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get data from Apify": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "0737181f-bfd0-418b-9d10-1a84c6595990",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "6c4c446d5304742a3c3b35610a91a9314f8fa6e78abf59256949d198dc0f9226"
+  },
+  "id": "TuedWQAzdlHEe9B7",
+  "tags": []
+}
